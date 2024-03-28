@@ -10,6 +10,9 @@ export interface MsgReq {
 }
 
 export type ReceivedMsg = {
+    /**
+     * number of all messages ever sent to "us" from the according sender
+     */
     cnt: number;
     msg: string[];
 }
